@@ -23,19 +23,19 @@ router.get("/", async (req, res, next) => {
   {
     _id: "6557322cdbe5c62804eeba5f",
     name: "Room",
-    cover: ""
+    cover: "https://i.ibb.co/Y0pGBGq/img4.jpg"
   },
 
   {
     _id: "6557322cdbe5c62804eeba60",
     name: "Room",
-    cover: ""
+    cover: "https://i.ibb.co/HpzH5fm/img5.jpg"
   },
 
   {
     _id: "6557322cdbe5c62804eeba61",
     name: "Room",
-    cover: ""
+    cover: "https://i.ibb.co/fHknkrm/img6.jpg"
   }
 
 ]);
