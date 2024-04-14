@@ -13,6 +13,8 @@ app.use(cors())
 app.use("/images", home);
 app.use("/bookings", home2);
 
+
+
 // connection
 const port = process.env.PORT || 9001;
 app.listen(port, () => console.log(`Listening to port ${port}`));
