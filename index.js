@@ -2,7 +2,6 @@
 const cors = require('cors');
 const express = require("express");
 const home = require("./routes/images");
-const home2 = require("./routes/bookings");
 
 // Middlewares
 const app = express();
@@ -11,8 +10,6 @@ app.use(cors())
 
 // Routes
 app.use("/images", home);
-app.use("/bookings", home2);
-
 
 
 // connection
